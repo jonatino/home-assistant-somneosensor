@@ -4,7 +4,7 @@ from datetime import timedelta
 
 from homeassistant.helpers import config_validation as cv
 from homeassistant.components.sensor import PLATFORM_SCHEMA
-from homeassistant.const import (TEMP_CELSIUS, UNIT_PERCENTAGE)
+from homeassistant.const import (TEMP_CELSIUS, PERCENTAGE)
 #DOMAIN = 'somneo'
 VERSION = "1.3"
 
@@ -21,7 +21,7 @@ MIN_TIME_BETWEEN_UPDATES = timedelta(seconds=60)
 
 SENSOR_TYPES = {
     "temperature": ["somneo_temperature", TEMP_CELSIUS],
-    "humidity": ["somneo_humidity", UNIT_PERCENTAGE],
+    "humidity": ["somneo_humidity", PERCENTAGE],
     "light": ["somneo_light", "lux"],
     "noise": ["somneo_noise", "db"],
 }
