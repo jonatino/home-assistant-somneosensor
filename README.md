@@ -18,7 +18,7 @@ sensor:
     - platform: somneosensor
       host: <somneo_ip>
       port: <somneo_port>  (default: 443, probably redundant setting)
-      display_options:
+      sensors:
         - temperature
         - humidity
         - light
