@@ -1,6 +1,7 @@
 {
   "domain": "somneosensor",
   "name": "Somneo Sensors",
+  "version": "1.0.0",
   "documentation": "",
   "dependencies": [],
   "codeowners": ["@pijiulaoshi"],
