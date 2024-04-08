@@ -17,7 +17,7 @@ CONF_NAME = "name"
 CONF_HOST = "host"
 CONF_PORT = "port"
 CONF_SENS = "sensors"
-MIN_TIME_BETWEEN_UPDATES = timedelta(seconds=60)
+MIN_TIME_BETWEEN_UPDATES = timedelta(seconds=20)
 
 SENSOR_TYPES = {
     "temperature": ["somneo_temperature", TEMP_CELSIUS],
